@@ -1,0 +1,31 @@
+# Azure Functions
+local.settings.json
+__pycache__/
+*.pyc
+.python_packages/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets and environment files
+*.key
+*.pem
+.env
+
+# Azure
+bin/
+obj/
