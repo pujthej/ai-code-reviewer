@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  code-reviewer:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - COSMOS_ENDPOINT=${COSMOS_ENDPOINT}
+      - COSMOS_KEY=${COSMOS_KEY}
+      - AzureWebJobsStorage=UseDevelopmentStorage=true
+    volumes:
+      - .:/home/site/wwwroot

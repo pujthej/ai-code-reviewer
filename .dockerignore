@@ -1,0 +1,15 @@
+# Don't copy these into Docker image
+local.settings.json
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.pyc
+.vscode
+.idea
+*.log
+.DS_Store
+README.md
+.env
+*.md
