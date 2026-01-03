@@ -28,4 +28,5 @@ Thumbs.db
 
 # Azure
 bin/
-obj/
+obj/.env
+docker-compose.override.yml
